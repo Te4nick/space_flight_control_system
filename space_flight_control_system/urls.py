@@ -89,4 +89,4 @@ urlpatterns = [
         ),
         name="get_log_file_status",
     ),
-]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
