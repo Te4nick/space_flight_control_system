@@ -24,6 +24,10 @@
   ```bash
   python manage.py runserver
   ```
+- Run all tests:
+  ```bash
+  python manage.py test
+  ```
 - Run unit tests:
   ```bash
   python manage.py test flight/tests/unit_tests
